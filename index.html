@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carousel with Message</title>
+</head>
+<body>
+  <div id="background-container"></div>
+  <section aria-label="Newest Photos">
+    <div class="carousel" data-carousel>
+      <button class="carousel-button prev" data-carousel-button="prev">&#8678;</button>
+      <button class="carousel-button next" data-carousel-button="next">&#8680;</button>
+   
+      <ul data-slides>
+        <li class="slide" data-active>
+          <img src="assets/jacksonstreet1.jpg" 
+          alt="JacksonStreet" data-message="
+          169.48.118.160
+          32°46'44.7276''N 96°48'0.9720'' W
+          Address: 211 S Akard St, Dallas, TX 75202
+
+    
+          Description: 
+          Located at 1300 Jackson Street, the Jackson Street 
+          Lofts stand as a historic testament to Dallas's 
+          ever-evolving landscape. Constructed in 1909, 
+          this building has witnessed a dynamic array of 
+          occupants over the years. Initially erected for 
+          E. Eppstein & Co., liquor distributors, the 
+          property shifted ownership to Sigel's in the 
+          late 1910s and later hosted the United States 
+          Tire Co. in 1918. Throughout the 1920s and 1930s,
+          it served as a hub for various tenants until Ely
+          & Walker Wholesale Dry Goods, a prominent St. 
+          Louis-based company, established their Dallas
+          offices within its walls, where they thrived
+          for nearly three decades. In 2000, developer
+          George Babashoff undertook the transformation
+          of the four-story structure into eight 
+          elegant condos, ushering in a new era while
+          preserving its rich history. The building
+          also briefly embraced Lenny's Sub Shop
+          in 2005, before all units found new owners
+          by early that same year. Today, the
+          Jackson Street Lofts embody the fusion 
+          of historical charm and contemporary 
+          living, embodying the spirit of Dallas's
+          enduring urban evolution.">
+        </li>
+        <li class="slide">
+          <img src="assets/westin.png" alt="Westin" data-message="
+          169.48.118.132
+          32.7797,N -96.80219944444444 W
+          Address: 1201 Main Street, Dallas, TX 75226
+        
+          Description:
+          Farm to Market Road 170 (FM 170), also known 
+          as Route 170 or River Road, is the steepest 
+          road in Texas, spanning 114.58 miles across 
+          Brewster and Presidio counties in West Texas.
+          This historic highway, initially paved in 1945, 
+          takes you on an exhilarating journey through the
+          Chihuahuan Desert along the Rio Grande 
+          River valley. Starting in Candelaria, it 
+          connects remote communities like Presidio and 
+          traverses ghost towns of the past. As you 
+          wind through Big Bend Ranch State Park and 
+          Terlingua, you'll be treated to awe-inspiring 
+          views of diverse plant life, wildlife, mountains,
+          and the majestic Rio Grande. With six significant 
+          intersections, including connections to US 67 and 
+          highways leading to Marfa and Ojinaga, FM 170 
+          offers a thrilling adventure through the 
+          captivating landscapes of South Texas.
+          ">
+        </li>
+        <li class="slide">
+          <img src="assets/kansas.jpg" alt="netherland1" data-message="
+          169.45.18.36
+          37.930344 N,-98.1055753 W
+          Address: Reno County, Kansas
+
+          Description:
+          Reno County, located in South Central Kansas, 
+          has a history dating back to the U.S. purchase 
+          from the French in 1803. Settlement began when 
+          Kansas ceased being Indian territory in 1861, 
+          with the county officially established in 1868 
+          and achieving self-government in 1871. It was 
+          named after Civil War General Jesse Lee Reno. 
+          Hutchinson, the county seat, was founded by Clinton
+          Carter Hutchinson with a unique alcohol ban. The 
+          county's Amish and Mennonite communities have left 
+          a lasting cultural imprint. Railroads, particularly
+          the Santa Fe, Rock Island, and Frisco lines, played
+          a vital role in the county's growth, connecting it 
+          to the eastern U.S., shaping its towns, and facilitating
+          transportation of people and goods.
+          ">
+        </li>
+        <li class="slide">
+          <img src="assets/cheney.png" alt="netherland1" data-message="
+          169.45.18.97
+          37.751 N,-97.822 W
+          Address: 1815 West Pine Wichita, Kansas 67203
+
+          Description:
+   
+          The North Fork of Ninnescah River has shaped a valley
+          through the Tertiary Ogallala formation's sand and clay
+          beds, which lie atop the Permian red beds in the 
+          Ninnescah formation. Below these red beds are layers
+          of shale, salt, and anhydrite from the Wellington 
+          formation. The region has several thousand feet of marine
+          sedimentary deposits, including up to 15 feet of slopewash
+          on valley sides, 35-foot-thick gravelly sand alluvial 
+          terraces, and floodplain deposits up to 40 feet thick.
+          The right side of the valley has sand and clay beds 
+          from the Ogallala formation, absent on the left side. 
+          The reservoir basin's floor and sides are primarily 
+          shale, about 100 feet thick, from the Permian Ninnescah
+          and Wellington formations. Below lies several thousand
+          feet of sedimentary layers, including shale, limestone,
+          salt, and anhydrite. The Ninnescah shale formation has
+          a regional southwest dip, sometimes modified by gentle 
+          folds, with no known faulting but common jointing in 
+          the shale beds, possibly due to structural flexing.
+          ">
+        </li>
+      </ul>
+    </div>
+    
+    <!-- Message div below the carousel -->
+    <div id="message" class="left-aligned"></div>
+  </section>
+</body>
+</html>
